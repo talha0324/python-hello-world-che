@@ -4,7 +4,8 @@ metadata:
 components:
   - name: tools
     container:
-      image: quay.io/devfile/universal-developer-image:ubi8-0e189d9
+#       image: quay.io/devfile/universal-developer-image:ubi8-0e189d9
+      image: python:3.8.13-slim-bullseye
       volumeMounts:
         - name: venv
           path: /home/user/.venv
